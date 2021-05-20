@@ -50,7 +50,7 @@ servicesRouter.post(
     let rolUsuario = req.user.rol;
     let idHabitacion = req.params.id;
 
-    if (rolUsuario != "ROL_ADMINAPP" || rolUsuario != "ROL_ADMINHOTEL") {
+    if (rolUsuario != "ROL_ADMINAPP" && rolUsuario != "ROL_ADMINHOTEL") {
       log.info(
         "El usuario no tiene acceso a esta accion por que no tiene el rol respectivo"
       );
