@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1620017722473" clover="3.2.0">
+  <project timestamp="1620017722473" name="All files">
+    <metrics statements="368" coveredstatements="326" conditionals="98" coveredconditionals="70" methods="75" coveredmethods="66" elements="541" coveredelements="462" complexity="0" loc="368" ncloc="368" packages="7" files="21" classes="21"/>
+    <package name="GestorHoteles">
+      <metrics statements="33" coveredstatements="30" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="index.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\index.js">
+        <metrics statements="33" coveredstatements="30" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="72" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.api.libs">
+      <metrics statements="34" coveredstatements="24" conditionals="12" coveredconditionals="6" methods="8" coveredmethods="6"/>
+      <file name="auth.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\libs\auth.js">
+        <metrics statements="17" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="21" type="stmt"/>
+        <line num="16" count="21" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="21" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="errorHandler.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\libs\errorHandler.js">
+        <metrics statements="17" coveredstatements="12" conditionals="10" coveredconditionals="5" methods="5" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="33" type="stmt"/>
+        <line num="6" count="54" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="9" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.api.recursos.Reservaciones">
+      <metrics statements="74" coveredstatements="66" conditionals="14" coveredconditionals="9" methods="16" coveredmethods="14"/>
+      <file name="reservaciones.controller.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.controller.js">
+        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+      </file>
+      <file name="reservaciones.error.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.error.js">
+        <metrics statements="9" coveredstatements="5" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="reservaciones.model.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.model.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+      <file name="reservaciones.routes.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.routes.js">
+        <metrics statements="41" coveredstatements="39" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+      </file>
+      <file name="reservaciones.validate.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.validate.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.api.recursos.Servicios">
+      <metrics statements="73" coveredstatements="72" conditionals="20" coveredconditionals="19" methods="15" coveredmethods="15"/>
+      <file name="servicios.controller.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Servicios\servicios.controller.js">
+        <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+      </file>
+      <file name="servicios.error.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Servicios\servicios.error.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+      <file name="servicios.model.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Servicios\servicios.model.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+      </file>
+      <file name="servicios.routes.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Servicios\servicios.routes.js">
+        <metrics statements="42" coveredstatements="42" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="76" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+      </file>
+      <file name="servicios.validate.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Servicios\servicios.validate.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.api.recursos.Usuarios">
+      <metrics statements="138" coveredstatements="122" conditionals="42" coveredconditionals="33" methods="32" coveredmethods="28"/>
+      <file name="usuarios.controller.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.controller.js">
+        <metrics statements="16" coveredstatements="14" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="9"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="41" count="9" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="45" count="9" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="54" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="23" type="stmt"/>
+        <line num="57" count="27" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="27" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+      </file>
+      <file name="usuarios.error.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.error.js">
+        <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="4" methods="4" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+      <file name="usuarios.model.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.model.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+      </file>
+      <file name="usuarios.routes.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.routes.js">
+        <metrics statements="75" coveredstatements="71" conditionals="24" coveredconditionals="22" methods="12" coveredmethods="12"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="32" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="34" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="54" count="9" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="58" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="67" count="8" type="stmt"/>
+        <line num="70" count="8" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="80" count="23" type="stmt"/>
+        <line num="82" count="23" type="stmt"/>
+        <line num="85" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="91" count="23" type="stmt"/>
+        <line num="95" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="96" count="23" type="stmt"/>
+        <line num="99" count="23" type="stmt"/>
+        <line num="102" count="23" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="116" count="3" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="122" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="126" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="128" count="1" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="141" count="3" type="stmt"/>
+        <line num="145" count="3" type="stmt"/>
+        <line num="148" count="3" type="stmt"/>
+        <line num="150" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="151" count="1" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="159" count="2" type="stmt"/>
+        <line num="160" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="167" count="1" type="stmt"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="173" count="3" type="stmt"/>
+      </file>
+      <file name="usuarios.validate.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.validate.js">
+        <metrics statements="27" coveredstatements="21" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="18" type="stmt"/>
+        <line num="20" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="23" type="stmt"/>
+        <line num="45" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="23" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="72" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.config">
+      <metrics statements="11" coveredstatements="7" conditionals="8" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="dev.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\config\dev.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\config\index.js">
+        <metrics statements="10" coveredstatements="6" conditionals="8" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="5"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="GestorHoteles.utils">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="logger.js" path="C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\utils\logger.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="162" type="stmt"/>
+        <line num="5" count="162" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
