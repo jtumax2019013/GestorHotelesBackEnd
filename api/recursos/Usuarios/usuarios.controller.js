@@ -27,6 +27,10 @@ function updateUser(id, user) {
   );
 }
 
+function setHotel(id, idHotel){
+  return Usuario.findOneAndUpdate({_id: id}, {$push: {hotel }})
+}
+
 function setBills(id, idBills) {
   return Usuario.findOneAndUpdate(
     { _id: id },
