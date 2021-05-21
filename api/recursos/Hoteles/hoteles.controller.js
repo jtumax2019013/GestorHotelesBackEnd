@@ -1,7 +1,7 @@
 const Hotel = require("./hoteles.model");
 
 function foundHotel() {
-  return Hotel.find({});
+  return Hotel.find({}).populate('room').populate('event').populate('user').populate('admin').populate('reservation');
 }
 
 function createHotel(hotel, idAdmin) {
@@ -13,7 +13,7 @@ function createHotel(hotel, idAdmin) {
 }
 
 function searchHotel(search) {
-  return Hotel.find({ $or: [{ name: search }, { direccion: search }] });
+  return Hotel.find({ $or: [{ name: search }, { direccion: search }] }).populate('event').populate('user').populate('admin').populate('reservation');
 }
 
 function deleteHotel(id) {
@@ -66,10 +66,10 @@ function setUser(id, idUser) {
 
 function foundOneHotel({ id: id, name: name }) {
   if (name) {
-    return Hotel.findOne({ name: name });
+    return Hotel.findOne({ name: name }).populate('event').populate('user').populate('admin').populate('reservation');
   }
   if (id) {
-    return Hotel.findById(id);
+    return Hotel.findById(id).populate('event').populate('user').populate('admin').populate('reservation');
   }
   throw new Error(
     "Funcion obtener hotel del controlador fue llamado sin especificar el nombre o el id"
