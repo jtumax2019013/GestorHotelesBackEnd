@@ -6,7 +6,7 @@ const blueprintReservation = Joi.object({
   fechaSalida: Joi.required(),
   numeroTarjeta: Joi.number().positive().min(16).required(),
   totalPagar: Joi.number().positive().precision(2).required(),
-  room: Joi.array().optional('')
+  room: Joi.allow('').optional(),
 });
 
 let validarReservacion = (req, res, next) => {
