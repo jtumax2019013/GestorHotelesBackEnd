@@ -17,7 +17,7 @@ const hotelSchema = new mongoose.Schema({
     },
     reservation: [{type: mongoose.Schema.ObjectId, ref:'reservacion'}],
     room : [{type: mongoose.Schema.ObjectId, ref:'habitacion'}],
-    event: [{type: mongoose.Schema.ObjectId, ref:'eventos'}],
+    event: [{type: mongoose.Schema.ObjectId, ref:'evento'}],
     user: [{type: mongoose.Schema.ObjectId, ref:'usuario'}],
     admin: [{type: mongoose.Schema.ObjectId, ref:'usuario'}]
 })
