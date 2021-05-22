@@ -52,7 +52,7 @@ reservationRouter.get(
 
 reservationRouter.post(
   "/:idH/:idR/set",
-  [validarReservacion, jwtAuthenticate],
+  [jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let nuevaReservacion = req.body;
     let fechaIngreso = req.body.fechaIngreso;
