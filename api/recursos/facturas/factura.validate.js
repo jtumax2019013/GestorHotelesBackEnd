@@ -3,7 +3,7 @@ const log = require('./../../../utils/logger')
 
 const blueprintBill = Joi.object({
     totalPagar: Joi.number().positive().precision(2).required(),
-    usuarioAPagar: Joi.string().required().allow('')
+    usuarioAPagar: Joi.array().required().allow('')
 })
 
 let validarFactura = (req, res, next) => {
