@@ -1,7 +1,7 @@
 const Reservacion = require("./reservaciones.model");
 
 function foundReservation() {
-  return Reservacion.find({});
+  return Reservacion.find({}).populate('room');
 }
 
 function setReservation(reservation, fechaIngreso, fechaSalida) {
@@ -26,7 +26,7 @@ function deleteReservation(id) {
 
 function foundOneReservacion({ id: id }) {
   if (id) {
-    return Reservacion.findById(id);
+    return Reservacion.findById(id).populate('room');
   }
   throw new Error(
     "Funcion de obtener una reservacion fue llamada sin especificar el id"
