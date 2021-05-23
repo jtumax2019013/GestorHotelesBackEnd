@@ -1,18 +1,18 @@
 const Usuario = require("./usuarios.model");
 
 function foundUser() {
-  return Usuario.find({});
+  return Usuario.find({}).populate('bills').populate('history');
 }
 
 function createUser(user, hashedPassword) {
   return new Usuario({
     ...user,
     password: hashedPassword,
-  }).save();
+  }).populate('bills').populate('history').save();
 }
 
 function deleteUser(id) {
-  return Usuario.findByIdAndRemove(id);
+  return Usuario.findByIdAndRemove(id).populate('bills').populate('history');
 }
 
 function updateUser(id, user) {
@@ -24,11 +24,11 @@ function updateUser(id, user) {
     {
       new: true,
     }
-  );
+  ).populate('bills').populate('history');
 }
 
 function setHotel(id, idHotel){
-  return Usuario.findOneAndUpdate({_id: id}, {$push: {hotel }})
+  return Usuario.findOneAndUpdate({_id: id}, {$push: {hotel }}).populate('bills').populate('history')
 }
 
 function setBills(id, idBills) {
@@ -36,7 +36,7 @@ function setBills(id, idBills) {
     { _id: id },
     { $push: { bills: idBills } },
     { new: true }
-  );
+  ).populate('bills').populate('history');
 }
 
 function setHistory(id, idHistory) {
@@ -46,13 +46,13 @@ function setHistory(id, idHistory) {
     },
     { $push: { history: idHistory } },
     { new: true }
-  );
+  ).populate('bills').populate('history');
 }
 
 function existingUser(username, email) {
   return new Promise((resolve, reject) => {
     Usuario.find()
-      .or([{ username: username }, { email: email }])
+      .or([{ username: username }, { email: email }]).populate('bills').populate('history')
       .then((usuarios) => {
         resolve(usuarios.length > 0);
       })
@@ -64,10 +64,10 @@ function existingUser(username, email) {
 
 function foundOneUser({ username: username, id: id }){
   if (username) {
-    return Usuario.findOne({ username: username });
+    return Usuario.findOne({ username: username }).populate('bills').populate('history');
   }
   if (id) {
-    return Usuario.findById(id);
+    return Usuario.findById(id).populate('bills').populate('history');
   }
   throw new Error(
     "Funcion obtener usuarios del controlador fue llamado sin especificar el username o id"
