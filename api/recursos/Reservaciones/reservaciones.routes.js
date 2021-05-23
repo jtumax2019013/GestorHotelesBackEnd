@@ -1,9 +1,6 @@
 const express = require("express");
 const passport = require("passport");
-
 const log = require("./../../../utils/logger");
-const validarReservacion = require("./reservaciones.validate")
-  .validarReservacion;
 const reservationController = require("./reservaciones.controller");
 const userController = require("./../Usuarios/usuarios.controller");
 const hotelController = require("./../Hoteles/hoteles.controller");

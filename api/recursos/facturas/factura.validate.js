@@ -2,7 +2,8 @@ const Joi = require('@hapi/joi')
 const log = require('./../../../utils/logger')
 
 const blueprintBill = Joi.object({
-    totalPagar: Joi.number().positive().precision(2).required()
+    totalPagar: Joi.number().positive().precision(2).required(),
+    usuarioPagar: Joi.string().required().allow('')
 })
 
 let validarFactura = (req, res, next) => {
